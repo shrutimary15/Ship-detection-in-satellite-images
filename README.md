@@ -31,7 +31,7 @@ Before diving into deep learning models, we initially explored using binary clas
 ### Dataset
 To train and evaluate the ship detection models, we used a open source dataset consisting of satellite images with ship annotations from the following [Github](https://github.com/amanbasu/ship-detection/tree/master/dataset). The dataset was carefully curated and annotated to ensure accurate and reliable training and testing. Details about the dataset, including its size, composition, and annotation format, are provided in the github account. 
 
-For the initial explorations the dataset used for binary classifier can be found in this [link](https://www.kaggle.com/datasets/apollo2506/satellite-imagery-of-ships) and for applying selective search algorithm can be foungd in this [link](https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery).
+For the initial explorations the dataset used for binary classifier can be found in this [link](https://www.kaggle.com/datasets/apollo2506/satellite-imagery-of-ships) and for applying selective search algorithm can be found in this [link](https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery).
 
 ### Results
 Based on the comparative analysis conducted in this thesis project, YOLOv3 has outperformed SSD and Faster R-CNN in ship detection tasks. The results, including MAP(Mean Average Precision) and speed of detection are detailed in the thesis document. Additionally, visualizations and comparisons of the model outputs are provided using sample images from the dataset in the thesis.
